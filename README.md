@@ -45,6 +45,18 @@ Project started via Spring initializer with the following configurations:
 
 This is a web service which list user posts in a paginated way.
 
+### Steps:
+
+1 - create a Record to represent the Post model/entity;
+
+2 - implement the PostRepository to search for post that should extends PagingAndSortingRepository;
+
+3 - create the service layer to list the pageable posts
+
+4 - create the controller to work with http requests
+
+5 - implement an automatized test
+
 
 ## ♡ Acknowledgment
 
