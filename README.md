@@ -51,11 +51,14 @@ This is a web service which list user posts in a paginated way.
 
 2 - implement the PostRepository to search for post that should extends PagingAndSortingRepository;
 
-3 - create the service layer to list the pageable posts
+3 - create the service layer to list the pageable posts;
 
-4 - create the controller to work with http requests
+4 - create the controller to work with http requests;
 
-5 - implement an automatized test
+5 - implement an automatized test;
+
+> Note! For the sake of simplicity and because it is beyond this mini-project scope, all classes were written in the same file, which is not recommended for real projects.
+
 
 
 ## ♡ Acknowledgment
